@@ -1,5 +1,4 @@
 import React from 'react'
-import '../styles/index.scss';
 
 const Hero = () => {
   return (
@@ -17,8 +16,8 @@ const Hero = () => {
           <a href="#" className='primary-btn'> Réserver un appel</a>
         </div>
         <p className="tag">
-          Découvrir nos services
-          <span></span>
+          <a href="#services">Découvrir nos services</a>
+          <span></span> {/* bar bottom*/}
         </p>
       </div>
     </div>

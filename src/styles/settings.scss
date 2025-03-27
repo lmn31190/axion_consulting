@@ -7,7 +7,7 @@ $bg-2 : #E1E9FD;
 
 //sizes
 $title-sz: 53px;
-$md: 12px;
+$md: 13px;
 $gd: 17px;
 
 //component
@@ -23,9 +23,10 @@ $gd: 17px;
     margin: 0;
     padding: 0;
     font-family: "Montserrat Alternates", sans-serif;
+    text-decoration: none;
+    list-style: none;
 
     a{
-        text-decoration: none;
         color: unset;
     }
 }
